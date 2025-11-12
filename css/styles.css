@@ -52,3 +52,21 @@ textarea {
     position: relative; /*Define a posição como relativa*/
     top: -62px; /*Sobe um pouco para invadir o header*/
 }
+
+/* form header */
+.form-header {
+    border-bottom: 1px solid #dfdfdf; /*Define a borda inferior do cabeçalho do formulário*/
+    height: 45px; /*Define a altura do cabeçalho do formulário*/
+}
+
+.form-header p {
+    color: #673ab7; /*Define a cor do texto do cabeçalho do formulário*/
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px; /*Alinha o texto verticalmente*/
+
+}
