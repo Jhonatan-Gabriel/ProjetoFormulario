@@ -39,3 +39,12 @@ input[type="text"], input[type="number"], input[type="date"], input[type="file"]
     color: #fff; /*Define a cor do título h3 dentro da header*/
     margin-top: 0; /*Remove a margem superior da header*/
 }
+
+/* form container */
+.form-container {
+    background-color: #fdfdfd; 
+    width: 60%; /*Define que a largura será de 60% da largura do elemento pai*/
+    margin: 0 auto; /*Centraliza o container na página*/
+    position: relative; /*Define a posição como relativa*/
+    top: -62px; /*Sobe um pouco para invadir o header*/
+}
