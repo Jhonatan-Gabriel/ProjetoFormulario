@@ -4,3 +4,15 @@
     padding: 0; /*Retira todo o espaçamento interno*/
     font-family: Arial, Helvetica, sans-serif; /*Define o tipo da fonte*/
 }
+
+body {
+    background-color: #f0ebf8; /*Define a cor de fundo da página*/
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333; /*Define a cor dos títulos*/
+}
+
+p, label {
+    color: #444; /*Define a cor dos parágrafos e labels*/
+}
