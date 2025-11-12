@@ -22,11 +22,17 @@
             <div class="form-body">
                 <h1 class="form-title">Venda fácil seu carro!</h1>
                 <p>Descreva as características e marque os opcionais que ele possui.</p>
+                <!-- formulário que será preenchido -->
                 <form>
+                    <!-- div box que encapsula o campo de título  -->
                     <div class="box-input">
+                        <!-- campo de título do anúncio -->
                         <label for="title">Título do anúncio<span class="required-field">*</span></label>
+                        <!-- minlength e maxlength são usados para definir o mínimo e máximo de caracteres do campo -->
+                         <!-- class block é apenas para indicar no CSS -->
                         <input type="text" id="title" name="title" class="block" placeholder="Nome do seu veículo" minlength="1" maxlength="30" required>
                     </div>
+                    <!-- botão para enviar o formulário -->
                     <input type="submit" value="Enviar anúncio">
                 </form>
             </div>
