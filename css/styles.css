@@ -27,3 +27,15 @@ input {
 input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px; /*Define a largura dos inputs e textareas*/
 } 
+
+/* page header */
+.header {
+    height: 160px; /*Define a altura do cabeçalho*/
+    padding: 20px; /*Define o espaçamento interno do cabeçalho*/
+    background-color: #673ab7;
+}
+
+.header h3 {
+    color: #fff; /*Define a cor do título h3 dentro da header*/
+    margin-top: 0; /*Remove a margem superior da header*/
+}
