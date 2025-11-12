@@ -16,3 +16,14 @@ h1, h2, h3, h4, h5 {
 p, label {
     color: #444; /*Define a cor dos parágrafos e labels*/
 }
+
+input {
+    border: none; /*Remove as bordas dos inputs*/
+    border-bottom: 1px solid #ccc; /*Define a borda inferior dos inputs*/
+    padding: 10px 0; /*Define o espaçamento dos inputs*/
+}
+
+/* especificando o tipo de input que quero alterar para que o botão não seja afetado de forma negativa ao meu estilo */
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
+    width: 400px; /*Define a largura dos inputs e textareas*/
+} 
