@@ -28,6 +28,10 @@ input[type="text"], input[type="number"], input[type="date"], input[type="file"]
     width: 400px; /*Define a largura dos inputs e textareas*/
 } 
 
+textarea {
+    padding: 10px 5px; /*Define o espaçamento interno do textarea*/
+}
+
 /* page header */
 .header {
     height: 160px; /*Define a altura do cabeçalho*/
