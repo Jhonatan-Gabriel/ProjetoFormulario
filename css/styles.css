@@ -1,0 +1,6 @@
+/* Reset -> eliminar estilos padrões HTML e trabalhar do "zero" os estilos CSS */
+* {
+    margin: 0; /* Retira todas as margens  */
+    padding: 0; /*Retira todo o espaçamento interno*/
+    font-family: Arial, Helvetica, sans-serif; /*Define o tipo da fonte*/
+}
